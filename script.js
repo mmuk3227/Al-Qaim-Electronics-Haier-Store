@@ -186,8 +186,8 @@ document.getElementById('whatsappOrderBtn').addEventListener('click', () => {
 
     message += `\nTotal Estimated Price: PKR ${total.toLocaleString()}`;
 
-    // Replace with exact WhatsApp number (e.g. 923001234567)
-    const phone = "923001234567";
+    // Replace with exact WhatsApp number (e.g. 923208209313)
+    const phone = "923208209313";
     const whatsappUrl = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
     
     window.open(whatsappUrl, '_blank');
@@ -195,29 +195,31 @@ document.getElementById('whatsappOrderBtn').addEventListener('click', () => {
 
 // Initial Load
 renderProducts(products);
-// Theme Switcher & LocalStorage Persistence
-const themeToggleBtn = document.getElementById('theme-toggle');
-const savedTheme = localStorage.getItem('theme');
+// Theme Switcher Logic (DOM Load Handler)
+document.addEventListener('DOMContentLoaded', () => {
+    const themeToggleBtn = document.getElementById('theme-toggle');
+    const savedTheme = localStorage.getItem('theme');
 
-// Apply saved theme on page load
-if (savedTheme === 'light') {
-    document.body.classList.add('light-mode');
-    if (themeToggleBtn) themeToggleBtn.innerText = '☀️ Light';
-} else {
-    if (themeToggleBtn) themeToggleBtn.innerText = '🌙 Dark';
-}
+    // Applied Saved Theme
+    if (savedTheme === 'light') {
+        document.body.classList.add('light-mode');
+        if (themeToggleBtn) themeToggleBtn.innerText = '☀️ Light';
+    } else {
+        if (themeToggleBtn) themeToggleBtn.innerText = '🌙 Dark';
+    }
 
-// Toggle click handler
-if (themeToggleBtn) {
-    themeToggleBtn.addEventListener('click', () => {
-        document.body.classList.toggle('light-mode');
-        
-        if (document.body.classList.contains('light-mode')) {
-            localStorage.setItem('theme', 'light');
-            themeToggleBtn.innerText = '☀️ Light';
-        } else {
-            localStorage.setItem('theme', 'dark');
-            themeToggleBtn.innerText = '🌙 Dark';
-        }
-    });
-}
+    // Click Event Listener
+    if (themeToggleBtn) {
+        themeToggleBtn.addEventListener('click', () => {
+            document.body.classList.toggle('light-mode');
+            
+            if (document.body.classList.contains('light-mode')) {
+                localStorage.setItem('theme', 'light');
+                themeToggleBtn.innerText = '☀️ Light';
+            } else {
+                localStorage.setItem('theme', 'dark');
+                themeToggleBtn.innerText = '🌙 Dark';
+            }
+        });
+    }
+});
