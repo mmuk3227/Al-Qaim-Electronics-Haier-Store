@@ -5,56 +5,56 @@ const products = [
         title: "Haier 1.5 Ton Pearl Inverter AC (HSU-18HF)",
         category: "ac",
         price: 165000,
-        image: "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=500&q=80"
+        image: "https://pakref.com/wp-content/uploads/2024/09/haier-pearl-inverter-ac-1.5-ton-price-in-pakistan.jpg"
     },
     {
         id: 2,
-        title: "Haier Digital Inverter Refrigerator (HRF-398)",
+        title: "HAIER DIGITAL INVERTER REFRIGERATOR HRF-398 IBSA",
         category: "fridge",
         price: 118000,
-        image: "https://images.unsplash.com/photo-1584992236310-6edddc08acff?auto=format&fit=crop&w=500&q=80"
+        image: "https://www.hcsupermart.com/wp-content/uploads/2025/02/Untitled-1-2.jpg"
     },
     {
         id: 3,
-        title: "Haier Convertible Deep Freezer (HDF-385)",
+        title: "Haier Deep Freezer HDF-385H",
         category: "fridge",
-        price: 89000,
-        image: "https://images.unsplash.com/photo-1571175443880-49e1d25b2bc5?auto=format&fit=crop&w=500&q=80"
+        price: 93000,
+        image: "https://www.alfatah.com.pk/wp-content/uploads/2023/09/17-1.jpg"
     },
     {
         id: 4,
-        title: "Haier Fully Automatic Front Load Washing Machine",
+        title: "Haier Front Load Washing Machine 10KG | HW100-BP14929S3",
         category: "washing",
         price: 115000,
-        image: "https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?auto=format&fit=crop&w=500&q=80"
+        image: "https://lahorelectronics.com/wp-content/uploads/2022/09/HW100-BP14929S3.jpeg"
     },
     {
         id: 5,
-        title: "Haier 55\" 4K HQLED Smart Android TV",
+        title: "HAIER 55 INCH SMART & 4K QLED TV Model 55S80EUX",
         category: "home",
         price: 138000,
-        image: "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=500&q=80"
+        image: "https://friendshome.pk/cdn/shop/files/Untitledproject_42_9eb98e1c-031e-4fa5-b013-1c1084fd0ba1.jpg?v=1727160884&width=600"
     },
     {
         id: 6,
-        title: "Haier Digital Grill Microwave Oven (25L)",
+        title: "Haier CDL-25DG02 Microwave Oven, 25L, 900W Grill & Solo, Fast Heating",
         category: "home",
         price: 32000,
-        image: "https://images.unsplash.com/photo-1585659722983-3a675dabf23d?auto=format&fit=crop&w=500&q=80"
+        image: "https://aielectronics.pk/wp-content/uploads/2025/11/Haier-Microwave-oven-CDL-25-DG-02-BLACK.webp"
     },
     {
         id: 7,
-        title: "Haier 1 Ton Marvel Inverter AC (HSU-12HF)",
+        title: "Haier 1.0 Ton Marvel Inverter Series AC(HSU-12HFMAE-013WISDC(W)",
         category: "ac",
         price: 128000,
-        image: "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=500&q=80"
+        image: "https://images.priceoye.pk/haier-1-0-ton-marvel-inverter-series-ac-hsu-12hfmae-013wisdc-w-pakistan-priceoye-63vgl-500x500.webp"
     },
     {
         id: 8,
-        title: "Haier Top Load Automatic Washing Machine (9KG)",
+        title: "Haier 9 KG Automatic Washing Machine 90826E",
         category: "washing",
         price: 78000,
-        image: "https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?auto=format&fit=crop&w=500&q=80"
+        image: "https://pakref.com/wp-content/uploads/2023/08/haier-90826-automatic-washing-machine.jpg"
     }
 ];
 let cart = [];
