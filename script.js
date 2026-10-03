@@ -195,3 +195,29 @@ document.getElementById('whatsappOrderBtn').addEventListener('click', () => {
 
 // Initial Load
 renderProducts(products);
+// Theme Switcher & LocalStorage Persistence
+const themeToggleBtn = document.getElementById('theme-toggle');
+const savedTheme = localStorage.getItem('theme');
+
+// Apply saved theme on page load
+if (savedTheme === 'light') {
+    document.body.classList.add('light-mode');
+    if (themeToggleBtn) themeToggleBtn.innerText = '☀️ Light';
+} else {
+    if (themeToggleBtn) themeToggleBtn.innerText = '🌙 Dark';
+}
+
+// Toggle click handler
+if (themeToggleBtn) {
+    themeToggleBtn.addEventListener('click', () => {
+        document.body.classList.toggle('light-mode');
+        
+        if (document.body.classList.contains('light-mode')) {
+            localStorage.setItem('theme', 'light');
+            themeToggleBtn.innerText = '☀️ Light';
+        } else {
+            localStorage.setItem('theme', 'dark');
+            themeToggleBtn.innerText = '🌙 Dark';
+        }
+    });
+}

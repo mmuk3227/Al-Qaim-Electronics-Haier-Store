@@ -10,6 +10,23 @@
 
     <!-- Header / Navbar -->
     <header>
+        <header>
+    <div class="nav-container">
+        <div class="logo">
+            ⚡ Al Qaim <span>Electronics</span>
+        </div>
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Search Haier appliances...">
+        </div>
+        <div style="display: flex; gap: 10px; align-items: center;">
+            <!-- New Theme Switcher Button -->
+            <button id="theme-toggle" class="theme-btn">🌙 Dark</button>
+            <button class="cart-btn" id="openCartBtn">
+                🛒 Cart (<span id="cartCount">0</span>)
+            </button>
+        </div>
+    </div>
+</header>
         <div class="nav-container">
             <div class="logo">
                 ⚡ Al Qaim <span>Electronics</span>
@@ -51,39 +68,6 @@
 
     </main>
 
-    <!-- Cart Drawer / Sidebar -->
-    <div class="cart-sidebar" id="cartSidebar">
-        <div class="cart-header">
-            <h3>Your Selected Items</h3>
-            <button id="closeCartBtn">&times;</button>
-        </div>
-        <div class="cart-items" id="cartItems">
-            <p class="empty-msg">Your cart is empty.</p>
-        </div>
-        <div class="cart-footer">
-            <div class="total-price">
-                Total: PKR <span id="cartTotal">0</span>
-            </div>
-            <button class="whatsapp-btn" id="whatsappOrderBtn">💬 Order via WhatsApp</button>
-        </div>
-    </div>
-
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2026 Al Qaim Electronics. All Rights Reserved.</p>
-        <p>Contact: +92 320 8209313 | Location: 1st Branch:Bakhar Road 18 Hazari,Near AC House, 18 Hazari,Jhang & 2nd Baranch:Bakhar Road Jhang,Near GO Pump,Jhang</p>
-    </footer>
-
-    <script src="script.js"></script>
-</body>
-</html>
-
-        <!-- Product Grid -->
-        <div class="product-grid" id="productGrid">
-            <!-- Products dynamically generated via JavaScript -->
-        </div>
-
-    </main>
 
     <!-- Cart Drawer / Sidebar -->
     <div class="cart-sidebar" id="cartSidebar">
@@ -104,7 +88,7 @@
 
     <!-- Footer -->
     <footer>
-        <p>&copy; 2026 Al Qaim Electronics. All Rights Reserved.</p>
+        <p>&copy;  Al Qaim Electronics. All Rights Reserved.</p>
         <p>Contact: +92 320 8209313 | Location: 1st Branch:Bakhar Road 18 Hazari,Near AC House, 18 Hazari,Jhang & 2nd Baranch:Bakhar Road Jhang,Near GO Pump,Jhang</p>
     </footer>
 

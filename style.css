@@ -277,3 +277,112 @@ footer {
     color: #94a3b8;
     margin-top: 40px;
 }
+/* Theme Toggle Button Styling */
+.theme-btn {
+    background: #334155;
+    color: #f8fafc;
+    border: 1px solid #475569;
+    padding: 8px 14px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.theme-btn:hover {
+    background: #475569;
+}
+
+/* ==========================================
+   Light Mode Styles
+========================================== */
+body.light-mode {
+    background-color: #f8fafc;
+    color: #0f172a;
+}
+
+body.light-mode header,
+body.light-mode .cart-sidebar,
+body.light-mode footer {
+    background-color: #ffffff;
+    color: #0f172a;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+body.light-mode .logo {
+    color: #0f172a;
+}
+
+body.light-mode .hero {
+    background: linear-gradient(180deg, #e2e8f0 0%, #f8fafc 100%);
+}
+
+body.light-mode .hero p {
+    color: #475569;
+}
+
+body.light-mode .search-box input {
+    background-color: #f1f5f9;
+    color: #0f172a;
+    border-color: #cbd5e1;
+}
+
+body.light-mode .filter-btn {
+    background: #ffffff;
+    color: #334155;
+    border-color: #cbd5e1;
+}
+
+body.light-mode .filter-btn.active,
+body.light-mode .filter-btn:hover {
+    background: #0284c7;
+    color: #ffffff;
+}
+
+body.light-mode .product-card {
+    background: #ffffff;
+    border-color: #e2e8f0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+body.light-mode .product-card h3 {
+    color: #0f172a;
+}
+
+body.light-mode .product-card .price {
+    color: #0284c7;
+}
+
+body.light-mode .add-cart-btn {
+    border-color: #0284c7;
+    color: #0284c7;
+}
+
+body.light-mode .add-cart-btn:hover {
+    background: #0284c7;
+    color: #ffffff;
+}
+
+body.light-mode .cart-header {
+    border-bottom-color: #e2e8f0;
+}
+
+body.light-mode .cart-header button {
+    color: #0f172a;
+}
+
+body.light-mode .cart-item {
+    background: #f1f5f9;
+    color: #0f172a;
+}
+
+body.light-mode .cart-footer {
+    border-top-color: #e2e8f0;
+}
+
+body.light-mode .theme-btn {
+    background: #e2e8f0;
+    color: #0f172a;
+    border-color: #cbd5e1;
+}
