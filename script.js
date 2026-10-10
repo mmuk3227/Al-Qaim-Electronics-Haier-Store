@@ -456,3 +456,5 @@ document.addEventListener('DOMContentLoaded', () => {
         window.open(`https://wa.me/${phone}?text=${encodeURIComponent(message)}`, '_blank');
     });
 });
+// Force initial render immediately
+renderCatalog();
