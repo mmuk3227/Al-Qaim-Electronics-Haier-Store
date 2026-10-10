@@ -3,61 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Al Qaim Electronics | Home Appliances</title>
+    <title>Al Qaim Electronics | Authorized Haier Store</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <!-- Header / Navbar -->
     <header>
-        <header>
-    <div class="nav-container">
-        <div class="logo">
-            ⚡ Al Qaim <span>Electronics</span>
+        <div class="nav-container">
+            <div class="logo">
+                ⚡ Al Qaim <span>Electronics</span> <small class="brand-tag">Haier Store</small>
+            </div>
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Search model, series, or category...">
+            </div>
+            <div style="display: flex; gap: 10px; align-items: center;">
+                <button id="theme-toggle" class="theme-btn">🌙 Dark</button>
+                <button class="cart-btn" id="openCartBtn">
+                    🛒 Cart (<span id="cartCount">0</span>)
+                </button>
+            </div>
         </div>
-        <div class="search-box">
-            <input type="text" id="searchInput" placeholder="Search Haier appliances...">
+    </header>
+
+    <!-- Hero Banner -->
+    <section class="hero">
+        <h1>Official <span>Haier Appliances</span> Store</h1>
+        <p>Explore original Haier Inverter ACs, Refrigerators, Freezers & Home Appliances</p>
+    </section>
+
+    <!-- Main Dynamic Catalog Container -->
+    <main class="main-container">
+        <div id="catalogContainer">
+            <!-- Dynamic Category & Series Sections Generated via JS -->
         </div>
-        <div style="display: flex; gap: 10px; align-items: center;">
-            <!-- New Theme Switcher Button -->
-            <button id="theme-toggle" class="theme-btn">🌙 Dark</button>
-            <button class="cart-btn" id="openCartBtn">
-                🛒 Cart (<span id="cartCount">0</span>)
-            </button>
-        </div>
-    </div>
-</header>
-
-   <!-- Hero Banner -->
-<section class="hero">
-    <h1>Welcome to <span>Al Qaim Electronics Haier Store</span></h1>
-    <p>Authorized Dealer for 100% Authentic <strong>Haier</strong> Home Appliances & Inverter ACs</p>
-    <a href="#products" class="btn">Explore Haier Products</a>
-</section>
-
-
-
-    <!-- Main Content -->
-    <main class="main-container" id="products">
-        
-        <!-- Category Filter Buttons -->
-        <div class="category-filters">
-            <button class="filter-btn active" data-category="all">All Products</button>
-            
-            <button class="filter-btn" data-category="ac">AC & Cooling</button>
-            <button class="filter-btn" data-category="tv">Smart TVs</button>
-            <button class="filter-btn" data-category="home">Home Appliances</button>
-        </div>
-
-        <!-- Product Grid -->
-        <div class="product-grid" id="productGrid">
-            <!-- Products dynamically generated via JavaScript -->
-        </div>
-
     </main>
 
-
-    <!-- Cart Drawer / Sidebar -->
+    <!-- Cart Sidebar -->
     <div class="cart-sidebar" id="cartSidebar">
         <div class="cart-header">
             <h3>Your Selected Items</h3>
@@ -76,8 +58,7 @@
 
     <!-- Footer -->
     <footer>
-        <p>&copy;  Al Qaim Electronics. All Rights Reserved.</p>
-        <p>Contact: +92 320 8209313 | Location: 1st Branch:Bakhar Road 18 Hazari,Near AC House, 18 Hazari,Jhang & 2nd Baranch:Bakhar Road Jhang,Near GO Pump,Jhang</p>
+        <p>&copy; Al Qaim Electronics - Authorized Haier Dealer. All Rights Reserved.</p>
     </footer>
 
     <script src="script.js"></script>
