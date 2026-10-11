@@ -458,3 +458,5 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 // Force initial render immediately
 renderCatalog();
+// Force initial render immediately
+renderCatalog();
