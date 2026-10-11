@@ -195,7 +195,7 @@ const catalogData = [
                     { id: 428, title: "Haier HWM 130-1217WB (White) (New)", price: 27000, img: "https://img.drz.lazcdn.com/static/pk/p/cec9949a5c526c2722ae651720b777be.jpg_720x720q80.jpg" },
                     { id: 429, title: "Haier HWM 130-1217GB (Grey) (New)", price: 27500, img: "https://www.aysonline.pk/wp-content/uploads/2025/02/HAIER-WASHING-MACHINE-80-1217-WB-G-1.png" },
                     { id: 430, title: "Haier HWM 130-1217-E (New)", price: 26500, img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSpLsvxnvzDBmZsHKbiKSPU0J1dt9YRW7bH2ktrrZJVg&s=10" },
-                    { id: 431, title: "Haier HWM 75AS", price: 265000, img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTd1VxtVB5l7mEQxtJ5RLSZpgEjfYr4xoWC6ulIWTGf8ueI58uZO6K24HY&s=10" },
+                    { id: 431, title: "Haier HWM 75AS", price: 26500, img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTd1VxtVB5l7mEQxtJ5RLSZpgEjfYr4xoWC6ulIWTGf8ueI58uZO6K24HY&s=10" },
                     { id: 432, title: "Haier HWM 80-CS (New)", price: 27500, img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQu-gFihFvtxpMyOwFhcDw9Qnv3K_bbwXZ4XqInziUYnA&s=10" },
                     { id: 433, title: "Haier HTW100-196E (New)", price: 33000, img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRlhJd_fs0XP_S9BJatDDnj7BhQ4qVJ_AjIaWjRnH3gk_Lqcwb84a5pl2A&s=10" },
                     { id: 434, title: "Haier HTW 100-196G (New)", price: 34500, img: "https://img.drz.lazcdn.com/static/pk/p/b7e924582a30fd8a9c308434916c0779.jpg_720x720q80.jpg_.webp" },
@@ -244,39 +244,39 @@ const catalogData = [
             {
                 seriesName: "Solo Series",
                 items: [
-                    { id: 601, title: "Haier HMW-20MXP3", price: 13872, img: "https://static-01.daraz.pk/p/4fb8123be351d28b10a9638f6ced1397.jpg" },
-                    { id: 602, title: "Haier HMW-20MPB", price: 13863, img: "https://static-01.daraz.pk/p/7a34bb144b58c1c538ca507b47d8a491.jpg" },
-                    { id: 603, title: "Haier HMW-20MPS", price: 13863, img: "https://img.drz.lazcdn.com/static/pk/p/1dd7294f2197fde1639bef0dd81445ff.png_720x720q80.png" },
-                    { id: 604, title: "Haier HMW-20MBS", price: 13863, img: "https://www.surmawala.pk/cdn/shop/files/haier-20mbs.png?v=1776236424" },
-                    { id: 605, title: "Haier HMW-20MX11", price: 16277, img: "https://aielectronics.pk/wp-content/uploads/2026/02/20MX11-left.webp" },
-                    { id: 606, title: "Haier HMW-20MX12", price: 16781, img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTksms313ZLOktUKmXX9gMxCXO4AMnq1qnUCU76URjCvSuI1wEs-eR89FTp&s=10" },
-                    { id: 607, title: "Haier HMW-20MHES", price: 15938, img: "https://elux.com.pk/cdn/shop/files/HaierHMW-20MHESMicrowaveOven_1_800x.jpg?v=1789112252" },
-                    { id: 608, title: "Haier HMW-20DSS", price: 17483, img: "https://www.aysonline.pk/wp-content/uploads/2025/02/HAIER-MICROWAVE-OVEN-HMW-20DSS-3.png" },
-                    { id: 609, title: "Haier HMW-25MXP9", price: 21667, img: "https://static-01.daraz.pk/p/11a479523769a7af1f10222a4bc089b8.jpg" },
-                    { id: 610, title: "Haier HMW-26MBH (New Model)", price: 23044, img: "https://electrociti.pk/cdn/shop/files/BB_42.png?v=1786973442&width=1445" },
-                    { id: 611, title: "Haier HMW-26MGH (New Model)", price: 23006, img: "https://www.hcsupermart.com/wp-content/uploads/2026/04/W020260331494452005882_1200.webp" },
-                    { id: 612, title: "Haier HMN-62MX80", price: 45682, img: "https://img.drz.lazcdn.com/static/pk/p/b443b1edf716b343c7ba53b92c5eeade.jpg_720x720q80.jpg" }
+                    { id: 601, title: "Haier HMW-20MXP3", price: 19872, img: "https://static-01.daraz.pk/p/4fb8123be351d28b10a9638f6ced1397.jpg" },
+                    { id: 602, title: "Haier HMW-20MPB", price: 19863, img: "https://static-01.daraz.pk/p/7a34bb144b58c1c538ca507b47d8a491.jpg" },
+                    { id: 603, title: "Haier HMW-20MPS", price: 19863, img: "https://img.drz.lazcdn.com/static/pk/p/1dd7294f2197fde1639bef0dd81445ff.png_720x720q80.png" },
+                    { id: 604, title: "Haier HMW-20MBS", price: 19863, img: "https://www.surmawala.pk/cdn/shop/files/haier-20mbs.png?v=1776236424" },
+                    { id: 605, title: "Haier HMW-20MX11", price: 22277, img: "https://aielectronics.pk/wp-content/uploads/2026/02/20MX11-left.webp" },
+                    { id: 606, title: "Haier HMW-20MX12", price: 22781, img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTksms313ZLOktUKmXX9gMxCXO4AMnq1qnUCU76URjCvSuI1wEs-eR89FTp&s=10" },
+                    { id: 607, title: "Haier HMW-20MHES", price: 21938, img: "https://elux.com.pk/cdn/shop/files/HaierHMW-20MHESMicrowaveOven_1_800x.jpg?v=1789112252" },
+                    { id: 608, title: "Haier HMW-20DSS", price: 23483, img: "https://www.aysonline.pk/wp-content/uploads/2025/02/HAIER-MICROWAVE-OVEN-HMW-20DSS-3.png" },
+                    { id: 609, title: "Haier HMW-25MXP9", price: 27667, img: "https://static-01.daraz.pk/p/11a479523769a7af1f10222a4bc089b8.jpg" },
+                    { id: 610, title: "Haier HMW-26MBH (New Model)", price: 29044, img: "https://electrociti.pk/cdn/shop/files/BB_42.png?v=1786973442&width=1445" },
+                    { id: 611, title: "Haier HMW-26MGH (New Model)", price: 29006, img: "https://www.hcsupermart.com/wp-content/uploads/2026/04/W020260331494452005882_1200.webp" },
+                    { id: 612, title: "Haier HMN-62MX80", price: 51682, img: "https://img.drz.lazcdn.com/static/pk/p/b443b1edf716b343c7ba53b92c5eeade.jpg_720x720q80.jpg" }
                 ]
             },
             {
                 seriesName: "Grill & Convection Series",
                 items: [
-                    { id: 613, title: "Haier HMW-20DGS Grill Oven", price: 21015, img: "https://www.aysonline.pk/wp-content/uploads/2025/07/HAIER-MICROWAVE-OVEN-HMW-20DGS-2.jpg" },
-                    { id: 614, title: "Haier HMW-23200DG Grill Oven", price: 27628, img: "https://static-01.daraz.pk/p/3395faa29eb5b7e009bfa9ea6e0d83e9.jpg" },
-                    { id: 615, title: "Haier HMW-28100DG Grill Oven", price: 31216, img: "https://friendshome.pk/cdn/shop/files/UntitledProject_93_72705feb-2c81-4c6d-9cf5-26e45c173fb6.jpg?v=1721463153&width=1000" },
-                    { id: 616, title: "Haier HMW-32300B (New Model) Grill Oven", price: 33202, img: "https://static-01.daraz.pk/p/872f1e68560f1f51bc4441d01fded685.jpg" },
-                    { id: 617, title: "Haier HMW-32300S (New Model) Grill Oven", price: 33202, img: "https://www.surmawala.pk/cdn/shop/files/imgi_63_d353ea7895859612b48f707014cf547e.jpg?v=1776276701" },
-                    { id: 618, title: "Haier HMW-45DGM (New Model) Grill Oven", price: 40713, img: "https://elux.com.pk/cdn/shop/files/HaierHMW-45DGMMicrowaveOven_3_1024x.jpg?v=1789372018" },
-                    { id: 619, title: "Haier HGL-30100 Convection Oven", price: 41513, img: "https://static-01.daraz.pk/p/767456baca26cb44b7d511302df9b003.jpg" }
+                    { id: 613, title: "Haier HMW-20DGS Grill Oven", price: 27015, img: "https://www.aysonline.pk/wp-content/uploads/2025/07/HAIER-MICROWAVE-OVEN-HMW-20DGS-2.jpg" },
+                    { id: 614, title: "Haier HMW-23200DG Grill Oven", price: 33628, img: "https://static-01.daraz.pk/p/3395faa29eb5b7e009bfa9ea6e0d83e9.jpg" },
+                    { id: 615, title: "Haier HMW-28100DG Grill Oven", price: 37216, img: "https://friendshome.pk/cdn/shop/files/UntitledProject_93_72705feb-2c81-4c6d-9cf5-26e45c173fb6.jpg?v=1721463153&width=1000" },
+                    { id: 616, title: "Haier HMW-32300B (New Model) Grill Oven", price: 39202, img: "https://static-01.daraz.pk/p/872f1e68560f1f51bc4441d01fded685.jpg" },
+                    { id: 617, title: "Haier HMW-32300S (New Model) Grill Oven", price: 39202, img: "https://www.surmawala.pk/cdn/shop/files/imgi_63_d353ea7895859612b48f707014cf547e.jpg?v=1776276701" },
+                    { id: 618, title: "Haier HMW-45DGM (New Model) Grill Oven", price: 46713, img: "https://elux.com.pk/cdn/shop/files/HaierHMW-45DGMMicrowaveOven_3_1024x.jpg?v=1789372018" },
+                    { id: 619, title: "Haier HGL-30100 Convection Oven", price: 47513, img: "https://static-01.daraz.pk/p/767456baca26cb44b7d511302df9b003.jpg" }
                 ]
             },
             {
                 seriesName: "Air Fryer & Air Fryer MWO Series",
                 items: [
-                    { id: 620, title: "Haier HAF50MBI Air Fryer", price: 16023, img: "https://www.bees.com.pk/cdn/shop/files/MODEL-_HAF50MBI.jpg?v=1784196164&width=2048" },
-                    { id: 621, title: "Haier HAF50DB Air Fryer", price: 18516, img: "https://static-01.daraz.pk/p/11c929ed1ca9610099242f1e141f6d16.jpg" },
-                    { id: 622, title: "Haier HMW-30AFR Air Fryer Microwave", price: 48097, img: "https://img.drz.lazcdn.com/static/pk/p/2e8e881b0149b259e4f07f9abf46f99e.jpg_2200x2200q80.jpg_.webp" },
-                    { id: 623, title: "Haier HMW-30AFS Air Fryer Microwave", price: 48097, img: "https://img.drz.lazcdn.com/static/pk/p/9f26a3dc670eddc0c0c132dea8a866f1.png_960x960q80.png_.webp" }
+                    { id: 620, title: "Haier HAF50MBI Air Fryer", price: 22023, img: "https://www.bees.com.pk/cdn/shop/files/MODEL-_HAF50MBI.jpg?v=1784196164&width=2048" },
+                    { id: 621, title: "Haier HAF50DB Air Fryer", price: 24516, img: "https://static-01.daraz.pk/p/11c929ed1ca9610099242f1e141f6d16.jpg" },
+                    { id: 622, title: "Haier HMW-30AFR Air Fryer Microwave", price: 54097, img: "https://img.drz.lazcdn.com/static/pk/p/2e8e881b0149b259e4f07f9abf46f99e.jpg_2200x2200q80.jpg_.webp" },
+                    { id: 623, title: "Haier HMW-30AFS Air Fryer Microwave", price: 54097, img: "https://img.drz.lazcdn.com/static/pk/p/9f26a3dc670eddc0c0c132dea8a866f1.png_960x960q80.png_.webp" }
                 ]
             }
         ]
