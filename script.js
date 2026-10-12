@@ -529,5 +529,3 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 });
-
-renderCatalog();
