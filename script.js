@@ -302,6 +302,50 @@ function renderCatalog() {
     let hasResults = false;
 
     catalogData.forEach(cat => {
+        // Yahan .toLowerCase() add kar dein
+        if (currentCategory !== "all" && cat.key.toLowerCase() !== currentCategory.toLowerCase()) return;
+
+        let categoryHasItems = false;
+        const categorySection = document.createElement('section');
+        categorySection.className = 'category-section';
+
+        let categoryHTML = `<h2 class="category-header">${cat.category}</h2>`;
+
+        cat.seriesList.forEach(series => {
+            const filteredItems = series.items.filter(item =>
+                item.title.toLowerCase().includes(currentSearch.toLowerCase()) ||
+                series.seriesName.toLowerCase().includes(currentSearch.toLowerCase())
+            );
+
+            if (filteredItems.length > 0) {
+                categoryHasItems = true;
+                hasResults = true;
+
+                categoryHTML += `
+                    <div class="series-block">
+                        <h3 class="series-title">${series.seriesName}</h3>
+                        <div class="product-grid">
+                            ${filteredItems.map(item => `
+                                <div class="product-card">
+                                    <img src="${item.img}" alt="${item.title}">
+                                    <div>
+                                        <h4>${item.title}</h4>
+                                        <div class="price">PKR ${item.price.toLocaleString()}</div>
+                                    </div>
+                                    <button class="add-cart-btn" onclick="addToCart(${item.id})">Add to Order</button>
+                                </div>
+                            `).join('')}
+                        </div>
+                    </div>
+                `;
+            }
+        });
+
+        if (categoryHasItems) {
+            categorySection.innerHTML = categoryHTML;
+            catalogContainer.appendChild(categorySection);
+        }
+    });
         if (currentCategory !== "all" && cat.key !== currentCategory) return;
 
         let categoryHasItems = false;
