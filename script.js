@@ -1,6 +1,6 @@
 // Official Haier Product Catalog Structured by Categories & Series
 const catalogData = [
-    {
+    {   key: "ac/Ac/AC",
         category: "❄️ Air Conditioners (ACs)",
         seriesList: [
             {
@@ -65,7 +65,7 @@ const catalogData = [
             }
         ]
     },
-    {
+    {   key: "fridge/freezer/Fridge/Freezer",
         category: "🧊 Refrigerators",
         seriesList: [
             {
@@ -148,7 +148,7 @@ const catalogData = [
               }
         ]
     },
-    {
+    {   key: "washing/Washing",
         category: "🧺 Washing Machines",
         seriesList: [
             {
@@ -205,7 +205,7 @@ const catalogData = [
             }
         ]
     },
-    {
+    {   key: "led/Led",
         category: "📺 Smart LED TVs",
         seriesList: [
             {
@@ -238,7 +238,7 @@ const catalogData = [
             }
         ]
     },
-    {
+    {   key: "oven/Oven",
         category: "🍿 Microwave Ovens & Air Fryers",
         seriesList: [
             {
@@ -283,16 +283,23 @@ const catalogData = [
     }
 ];
 
+let currentCategory = "all";
+let currentSearch = "";
 let cart = [];
 const catalogContainer = document.getElementById('catalogContainer');
 const searchInput = document.getElementById('searchInput');
 
 // Render Catalog with Headings & Series Blocks
-function renderCatalog(filterText = "") {
+function renderCatalog() {
+    const catalogContainer = document.getElementById('catalogContainer');
+    if (!catalogContainer) return;
     catalogContainer.innerHTML = "";
     let hasResults = false;
 
     catalogData.forEach(cat => {
+        // Agar koi specific category select ki ho toh baaki skip ho jayengi
+        if (currentCategory !== "all" && cat.key !== currentCategory) return;
+
         let categoryHasItems = false;
         const categorySection = document.createElement('section');
         categorySection.className = 'category-section';
@@ -301,8 +308,8 @@ function renderCatalog(filterText = "") {
 
         cat.seriesList.forEach(series => {
             const filteredItems = series.items.filter(item =>
-                item.title.toLowerCase().includes(filterText.toLowerCase()) ||
-                series.seriesName.toLowerCase().includes(filterText.toLowerCase())
+                item.title.toLowerCase().includes(currentSearch.toLowerCase()) ||
+                series.seriesName.toLowerCase().includes(currentSearch.toLowerCase())
             );
 
             if (filteredItems.length > 0) {
@@ -336,7 +343,8 @@ function renderCatalog(filterText = "") {
     });
 
     if (!hasResults) {
-        catalogContainer.innerHTML = `<div style="text-align:center; padding: 50px; color:#94a3b8; font-size:1.2rem;">No matching Haier models found for "${filterText}".</div>`;
+        catalogContainer.items = "";
+        catalogContainer.innerHTML = `<div style="text-align:center; padding: 50px; color:#94a3b8; font-size:1.1rem;">No matching Haier models found.</div>`;
     }
 }
 
@@ -412,6 +420,25 @@ document.addEventListener('DOMContentLoaded', () => {
     });
     document.getElementById('closeCartBtn').addEventListener('click', () => {
         document.getElementById('cartSidebar').classList.remove('open');
+    });
+    // Search Input Listener
+    const searchInput = document.getElementById('searchInput');
+    if (searchInput) {
+        searchInput.addEventListener('input', (e) => {
+            currentSearch = e.target.value.trim();
+            renderCatalog();
+        });
+    }
+
+    // Category Chip Click Listeners (Buttons)
+    const categoryChips = document.querySelectorAll('.cat-chip');
+    categoryChips.forEach(chip => {
+        chip.addEventListener('click', () => {
+            categoryChips.forEach(c => c.classList.remove('active'));
+            chip.classList.add('active');
+            currentCategory = chip.getAttribute('data-category');
+            renderCatalog();
+        });
     });
 
     // Theme Switcher
