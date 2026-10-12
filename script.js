@@ -1,6 +1,7 @@
 // Official Haier Product Catalog Structured by Categories & Series
 const catalogData = [
-    {   key: "ac/Ac/AC",
+    {   
+        key: "ac",
         category: "❄️ Air Conditioners (ACs)",
         seriesList: [
             {
@@ -59,13 +60,14 @@ const catalogData = [
                     { id: 141, title: "Haier HPU-24HJ/013WSDC(G) T3 Plus", price: 324000, img: "https://www.usamaelectronics.pk/cdn/shop/files/24HJ3.webp?v=1757578211&width=720" },
                     { id: 142, title: "Haier HPU-24HDZUV/013WSDC(W)", price: 294000, img: "https://lahorelectronics.com/wp-content/uploads/2026/02/Haier-24HDZUV-T3-Plus-Inverter.webp" },
                     { id: 143, title: "Haier HPU-24HDZCA/013WSDC(W)", price: 284000, img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUyqaszrfD7R7bq19NmohpyhMUk4L1JSgGqSB-DMe1jlf6EeFoljJtwkTE&s=10" },
-                    { id: 143, title: "Haier HPU-24HE/012WSDC(X-IK)-T3", price: 263000, img: "https://www.almumtaz.com.pk/wp-content/uploads/2025/02/pixelcut-export.webp" },
-                    { id: 143, title: "Haier HPU-24CE03/X-IK", price: 215000, img: "https://www.almumtaz.com.pk/wp-content/uploads/2024/03/Untitled-design-40.webp" }
+                    { id: 144, title: "Haier HPU-24HE/012WSDC(X-IK)-T3", price: 263000, img: "https://www.almumtaz.com.pk/wp-content/uploads/2025/02/pixelcut-export.webp" },
+                    { id: 145, title: "Haier HPU-24CE03/X-IK", price: 215000, img: "https://www.almumtaz.com.pk/wp-content/uploads/2024/03/Untitled-design-40.webp" }
                 ]
             }
         ]
     },
-    {   key: "fridge/freezer/Fridge/Freezer",
+    {   
+        key: "fridge",
         category: "🧊 Refrigerators",
         seriesList: [
             {
@@ -96,7 +98,6 @@ const catalogData = [
                     { id: 223, title: "Haier HRF-418 TIFG1U1/TIFB1U1 (IOT) (New Launch 2026)*", price: 119000, img: "https://www.surmawala.pk/cdn/shop/files/438-iot.png?v=1775543523" },
                     { id: 224, title: "Haier HRF-458 TIFG1U1/TIFB1U1 (IOT) (New Launch 2026)*", price: 124000, img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg6SJOJW4vwmol1HpQGt6h52DnouhmwmJ5l1w_y9dKmA&s=10" },
                     { id: 225, title: "Haier HRF-538 TIFG1U1/TIFB1U1 (IOT)", price: 131000, img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiw7nFXoTCPyWkBmlst0P_3WiLlkwbEHJv5ItRJZJAJJh97Ui4wgK72Kvn&s=10" }
-                
                 ]
             },
             {
@@ -125,9 +126,15 @@ const catalogData = [
                     { id: 241, title: "HRF-622IIBG", price: 240000, img: "https://afzalcorp.com.pk/wp-content/uploads/2026/04/HRF-622-IBS.jpg" },
                     { id: 242, title: "Haier HRF-678TG Luxury Inverter", price: 340000, img: "https://www.surmawala.pk/cdn/shop/files/haier-678.png?v=1775558112" }
                 ]
-            },
+            }
+        ]
+    },
+    {   
+        key: "freezer",
+        category: "🌀 Deep Freezers",
+        seriesList: [
             {
-                seriesName: "Deep Freezer",
+                seriesName: "Inverter & Conventional Deep Freezers",
                 items: [
                     { id: 243, title: "Haier HDF-175 Inverter / IG", price: 59000, img: "https://www.aysonline.pk/wp-content/uploads/2026/05/Haier-Deep-Freezer-HDF-175-IG-Inverter-Grey-01.png" },
                     { id: 244, title: "Haier HDF-230 Inverter", price: 65000, img: "https://www.surmawala.pk/cdn/shop/files/Haier-HDF-230-Inv-Inverter-Deep-Freezer-3.webp?v=1775668742" },
@@ -145,10 +152,11 @@ const catalogData = [
                     { id: 256, title: "Haier HDF-385 INVERTER / IG", price: 134000, img: "https://www.surmawala.pk/cdn/shop/files/385ig-grey_grande.jpg?v=1775671147" },
                     { id: 257, title: "Haier HDF-345 INVERTER / IG", price: 90000, img: "https://www.surmawala.pk/cdn/shop/files/345ig.jpg?v=1775669488" }
                 ]
-              }
+            }
         ]
     },
-    {   key: "washing/Washing",
+    {   
+        key: "washing",
         category: "🧺 Washing Machines",
         seriesList: [
             {
@@ -179,7 +187,6 @@ const catalogData = [
                     { id: 418, title: "Haier HW120-BP12357S8", price: 170000, img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn1bSpU13F3iV1aAmU1MFZRU74zjhGzbb54uLPJy8gjJFBgO_KXinh04fa&s=10" },
                     { id: 419, title: "Haier HWD120-BP12375S8-Inverter (New)", price: 210000, img: "https://www.hcsupermart.com/wp-content/uploads/2026/07/haier-front-load-washing-machine-new-model.webp" },
                     { id: 420, title: "Haier HWD140-BPD14387GNU1 (New)", price: 250000, img: "https://statice.homepro.co.th/homepromy/ART_IMAGE/10/844/1084427/447x447/29122025_1084427$Imagec4.jpg" }
-                    
                 ]
             },
             {
@@ -205,7 +212,8 @@ const catalogData = [
             }
         ]
     },
-    {   key: "led/Led",
+    {   
+        key: "led",
         category: "📺 Smart LED TVs",
         seriesList: [
             {
@@ -233,12 +241,12 @@ const catalogData = [
                     { id: 520, title: "Haier H75M80FUX (75\")", price: 320000, img: "https://m.media-amazon.com/images/I/71cwDOWvAdL._AC_UF1000,1000_QL80_.jpg" },
                     { id: 521, title: "Haier H85M80FUX (85\")", price: 475000, img: "https://i.gadgets360cdn.com/products/large/M80-1-800x484-1761827842.jpg?downsize=*:360" },
                     { id: 522, title: "Haier H100S90FUX (100\")", price: 835000, img: "https://orient-electronics.com/wp-content/uploads/2026/06/h100s90fux-01-500x500-1.webp" }
-
                 ]
             }
         ]
     },
-    {   key: "oven/Oven",
+    {   
+        key: "oven",
         category: "🍿 Microwave Ovens & Air Fryers",
         seriesList: [
             {
@@ -286,10 +294,7 @@ const catalogData = [
 let currentCategory = "all";
 let currentSearch = "";
 let cart = [];
-const catalogContainer = document.getElementById('catalogContainer');
-const searchInput = document.getElementById('searchInput');
 
-// Render Catalog with Headings & Series Blocks
 function renderCatalog() {
     const catalogContainer = document.getElementById('catalogContainer');
     if (!catalogContainer) return;
@@ -297,7 +302,6 @@ function renderCatalog() {
     let hasResults = false;
 
     catalogData.forEach(cat => {
-        // Agar koi specific category select ki ho toh baaki skip ho jayengi
         if (currentCategory !== "all" && cat.key !== currentCategory) return;
 
         let categoryHasItems = false;
@@ -343,17 +347,10 @@ function renderCatalog() {
     });
 
     if (!hasResults) {
-        catalogContainer.items = "";
         catalogContainer.innerHTML = `<div style="text-align:center; padding: 50px; color:#94a3b8; font-size:1.1rem;">No matching Haier models found.</div>`;
     }
 }
 
-// Search Handler
-searchInput.addEventListener('input', (e) => {
-    renderCatalog(e.target.value.trim());
-});
-
-// Cart & Theme Logic
 function addToCart(id) {
     let selectedItem = null;
     catalogData.forEach(cat => {
@@ -369,7 +366,8 @@ function addToCart(id) {
         else cart.push({ ...selectedItem, qty: 1 });
 
         updateCartUI();
-        document.getElementById('cartSidebar').classList.add('open');
+        const cartSidebar = document.getElementById('cartSidebar');
+        if (cartSidebar) cartSidebar.classList.add('open');
     }
 }
 
@@ -378,11 +376,12 @@ function updateCartUI() {
     const cartItems = document.getElementById('cartItems');
     const cartTotal = document.getElementById('cartTotal');
 
-    cartCount.innerText = cart.reduce((sum, item) => sum + item.qty, 0);
+    if (cartCount) cartCount.innerText = cart.reduce((sum, item) => sum + item.qty, 0);
+    if (!cartItems) return;
 
     if (cart.length === 0) {
         cartItems.innerHTML = '<p class="empty-msg">Your cart is empty.</p>';
-        cartTotal.innerText = '0';
+        if (cartTotal) cartTotal.innerText = '0';
         return;
     }
 
@@ -403,7 +402,7 @@ function updateCartUI() {
         cartItems.appendChild(div);
     });
 
-    cartTotal.innerText = total.toLocaleString();
+    if (cartTotal) cartTotal.innerText = total.toLocaleString();
 }
 
 function removeFromCart(id) {
@@ -411,17 +410,20 @@ function removeFromCart(id) {
     updateCartUI();
 }
 
-// Event Listeners for Cart & Theme
 document.addEventListener('DOMContentLoaded', () => {
     renderCatalog();
 
-    document.getElementById('openCartBtn').addEventListener('click', () => {
-        document.getElementById('cartSidebar').classList.add('open');
-    });
-    document.getElementById('closeCartBtn').addEventListener('click', () => {
-        document.getElementById('cartSidebar').classList.remove('open');
-    });
-    // Search Input Listener
+    const openCartBtn = document.getElementById('openCartBtn');
+    const closeCartBtn = document.getElementById('closeCartBtn');
+    const cartSidebar = document.getElementById('cartSidebar');
+
+    if (openCartBtn && cartSidebar) {
+        openCartBtn.addEventListener('click', () => cartSidebar.classList.add('open'));
+    }
+    if (closeCartBtn && cartSidebar) {
+        closeCartBtn.addEventListener('click', () => cartSidebar.classList.remove('open'));
+    }
+
     const searchInput = document.getElementById('searchInput');
     if (searchInput) {
         searchInput.addEventListener('input', (e) => {
@@ -430,7 +432,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // Category Chip Click Listeners (Buttons)
     const categoryChips = document.querySelectorAll('.cat-chip');
     categoryChips.forEach(chip => {
         chip.addEventListener('click', () => {
@@ -441,7 +442,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // Theme Switcher
     const themeToggleBtn = document.getElementById('theme-toggle');
     const savedTheme = localStorage.getItem('theme');
 
@@ -463,25 +463,27 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // WhatsApp Order
-    document.getElementById('whatsappOrderBtn').addEventListener('click', () => {
-        if (cart.length === 0) {
-            alert("Please add items to cart first!");
-            return;
-        }
+    const whatsappOrderBtn = document.getElementById('whatsappOrderBtn');
+    if (whatsappOrderBtn) {
+        whatsappOrderBtn.addEventListener('click', () => {
+            if (cart.length === 0) {
+                alert("Please add items to cart first!");
+                return;
+            }
 
-        let message = "Hello Al Qaim Electronics! I want to inquire/order the following Haier products:\n\n";
-        let total = 0;
+            let message = "Hello Al Qaim Electronics! I want to inquire/order the following Haier products:\n\n";
+            let total = 0;
 
-        cart.forEach((item, index) => {
-            message += `${index + 1}. ${item.title} (x${item.qty}) - PKR ${(item.price * item.qty).toLocaleString()}\n`;
-            total += item.price * item.qty;
+            cart.forEach((item, index) => {
+                message += `${index + 1}. ${item.title} (x${item.qty}) - PKR ${(item.price * item.qty).toLocaleString()}\n`;
+                total += item.price * item.qty;
+            });
+
+            message += `\nTotal Estimated Price: PKR ${total.toLocaleString()}`;
+            const phone = "923208209313";
+            window.open(`https://wa.me/${phone}?text=${encodeURIComponent(message)}`, '_blank');
         });
-
-        message += `\nTotal Estimated Price: PKR ${total.toLocaleString()}`;
-        const phone = "923208209313"; // Set your exact WhatsApp number here without '+'
-        window.open(`https://wa.me/${phone}?text=${encodeURIComponent(message)}`, '_blank');
-    });
+    }
 });
-// Force initial render immediately
+
 renderCatalog();
